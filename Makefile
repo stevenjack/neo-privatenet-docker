@@ -1,5 +1,5 @@
 BRANCH ?= "master"
-REPONAME ?= "$(shell basename `git rev-parse --show-toplevel`)"
+REPONAME ?= "neo-privatenet-docker"
 ORG ?= "smaj"
 VERSION ?= $(shell cat ./VERSION)
 
